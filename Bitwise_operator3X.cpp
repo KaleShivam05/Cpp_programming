@@ -13,7 +13,7 @@ UINT OfBitMultipe(UINT iNo, UINT iPos1, UINT iPos2)
     iMask2 = iMask2 << (iPos2 - 2); 
 
     iMask1 = ~iMask1;
-    iMask2 = ~iMask2;
+    iMask2 = ~iMask2;  
  
     iResult = iNo & (iMask1 & iMask2);
 
@@ -38,4 +38,5 @@ int main()
     cout<<"Updated number is :"<<iRet<<"\n";
     
     return 0;
+
 }
