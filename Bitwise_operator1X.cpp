@@ -12,7 +12,7 @@ bool CheckBit(UINT iNo, UINT iPos)
     {
         cout<<"Invalid bit position\n";
         return false;
-    }
+    }  
 
     iMask = iMask << (iPos - 1); //mask
 
@@ -45,4 +45,5 @@ int main()
     }
     
     return 0;
+
 }
