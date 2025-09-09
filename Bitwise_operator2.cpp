@@ -11,7 +11,6 @@ UINT ChangeBit(UINT iNo)
     iResult = iNo & iMask;
 
     return iResult; 
-    
 }
 
 int main()
@@ -26,4 +25,5 @@ int main()
     cout<<"Updated number is :"<<iRet<<"\n";
     
     return 0;
+
 }
