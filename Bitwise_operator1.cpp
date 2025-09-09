@@ -12,7 +12,7 @@ bool CheckBit(UINT iNo)
 
     return (iResult == iMask); 
     
-}
+}  
 
 int main()
 {
@@ -34,4 +34,5 @@ int main()
     }
     
     return 0;
+
 }
