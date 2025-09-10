@@ -7,8 +7,8 @@ class Base
         int i,j;
 
         int Addition(int no1, int no2)
-        {   return no1 + no2;   }   // 1000
-        virtual int Substraction(int no1, int no2) = 0;             // --- 
+        {   return no1 + no2;   }           // 1000
+        virtual int Substraction(int no1, int no2) = 0;   // --- 
 };
 
 class Derived : public Base
@@ -16,9 +16,9 @@ class Derived : public Base
     public:
         int x,y;
         int Substraction(int no1, int no2)
-        {   return no1 - no2;   }       // 2000
+        {   return no1 - no2;   }           // 2000
         int Multiplication(int no1, int no2)
-        {   return no1 * no2;   }     // 3000
+        {   return no1 * no2;   }           // 3000
 };
 
 int main()
