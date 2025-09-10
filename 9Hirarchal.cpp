@@ -50,7 +50,7 @@ int main()
     Derived2 dobj2;
 
     cout<<"Size of Base is : "<<sizeof(Base)<<"\n";             // 8
-    cout<<"Size of Derived1 is : "<<sizeof(Derived1)<<"\n";               // 12
+    cout<<"Size of Derived1 is : "<<sizeof(Derived1)<<"\n";     // 12
     cout<<"Size of Derived2 is : "<<sizeof(Derived2)<<"\n";     // 12
 
     return 0;
